@@ -21,6 +21,7 @@
 		07D678FE1E7FAB2F0013F645 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D678FA1E7FAAF40013F645 /* RxSwift.framework */; };
 		07D678FF1E7FAB2F0013F645 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07D678FA1E7FAAF40013F645 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07D679021E7FAB330013F645 /* RxCoreMotion.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07D678FB1E7FAAF40013F645 /* RxCoreMotion.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2790406C3EFC4A8EB588483E /* AltitudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27904CB4FECA014827AB6DD6 /* AltitudeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		07D678D81E7F82500013F645 /* RedCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedCircleView.swift; sourceTree = "<group>"; };
 		07D678FA1E7FAAF40013F645 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		07D678FB1E7FAAF40013F645 /* RxCoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCoreMotion.framework; path = Carthage/Build/iOS/RxCoreMotion.framework; sourceTree = "<group>"; };
+		27904CB4FECA014827AB6DD6 /* AltitudeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeViewController.swift; sourceTree = "<group>"; };
 		667B13071E7BCE22001151C7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		667B13091E7BCE28001151C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				07D678D31E7F82500013F645 /* DeviceMotionViewController.swift */,
 				07D678D41E7F82500013F645 /* GyroscopeViewController.swift */,
 				07D678D51E7F82500013F645 /* MagnetometerViewController.swift */,
+				27904CB4FECA014827AB6DD6 /* AltitudeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -165,7 +168,7 @@
 				TargetAttributes = {
 					071AD5A71CF171850058C7ED = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 2V65Z4JB29;
+						DevelopmentTeam = 9DYMKXHBMZ;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -213,6 +216,7 @@
 				07D678DF1E7F82500013F645 /* DeviceMotionViewController.swift in Sources */,
 				07D678E01E7F82500013F645 /* GyroscopeViewController.swift in Sources */,
 				07D678DE1E7F82500013F645 /* AccelerometerViewController.swift in Sources */,
+				2790406C3EFC4A8EB588483E /* AltitudeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,14 +337,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				DEVELOPMENT_TEAM = 9DYMKXHBMZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RxCoreMotionExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rx.swift.RxCoreMotion-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "rx.swift.RxCoreMotion-Example.kotvaska";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -351,14 +355,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2V65Z4JB29;
+				DEVELOPMENT_TEAM = 9DYMKXHBMZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/RxCoreMotionExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rx.swift.RxCoreMotion-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "rx.swift.RxCoreMotion-Example.kotvaska";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
